@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: 255 255 255;
+  --color-fg: 10 10 10;
+}
+
+html, body { height: 100%; }
+body {
+  background: rgb(var(--color-bg));
+  color: rgb(var(--color-fg));
+  @apply antialiased;
+}
+
+.container { @apply max-w-7xl mx-auto px-4; }
+.btn { @apply inline-flex items-center justify-center px-4 py-2 text-sm font-medium border rounded-full hover:opacity-90 transition; }
+.btn-primary { @apply bg-black text-white border-black; }
+.btn-ghost { @apply border-gray-300; }
+.card { @apply rounded-2xl border p-4 shadow-sm; }
