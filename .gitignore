@@ -15,8 +15,3 @@ build/
 # Editor
 .vscode/
 .idea/
-
-# Python (if any)
-__pycache__/
-*.pyc
-.venv/
