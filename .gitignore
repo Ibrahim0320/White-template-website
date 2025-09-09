@@ -1,17 +1,10 @@
-# macOS
-.DS_Store
-
-# Env
-.env
-.env.*
-!.env.example
-
-# Node / Next.js
 node_modules/
 .next/
 dist/
 build/
-
-# Editor
+.env
+.env.*
+!.env.example
+.DS_Store
 .vscode/
 .idea/
